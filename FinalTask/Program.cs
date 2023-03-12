@@ -20,10 +20,9 @@ void GetArray(string[] somearray)
         array[i] = Console.ReadLine()!;
     }
 }
-// Метод выводит обозначенный массив в консиоль.
+// Метод выводит обозначенный массив в консоль.
 void PrintArray(string[] somearray)
 {
-    //Выводит массив в консоль в виде [,,]
     Console.WriteLine("Вы ввели следующие строки: ");
     Console.Write("[");
     for (int i = 0; i < somearray.Length - 1; i++)
